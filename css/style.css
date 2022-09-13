@@ -1,6 +1,6 @@
 /*default rule*/
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
@@ -23,5 +23,32 @@ header{
 }
 main{
     max-width: 1300px;
-    margin: auto;   
+    margin: auto; 
+    margin-top: 20px;
+}
+#button-task{
+    background-color: #45ABEA;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    height: 35px;
+}
+#button-section{
+    border-radius: 5px;
+    color: rgb(201,206,211);
+    border-color: rgb(201,206,211);
+    padding: 10px;
+    font-weight: bold;
+    height: 35px;
+    border: 1px;
+}
+.buttons{
+    padding: 20px 80px;
+    background-color: white;  
+}
+.list{
+    margin-top: 2px;
+    background-color: white;  
 }
