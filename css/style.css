@@ -49,6 +49,7 @@ main{
 .buttons{
     padding: 20px 80px;
     background-color: white;  
+    border-radius: 5px;
 }
 /*contenitore liste*/
 .container{
@@ -91,9 +92,6 @@ main{
 .cross{
     color: red;
     border-color: red;
-}
-.arrow{
-    font-size: 25px;  
 }
 .check{
     color:green;
